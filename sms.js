@@ -27,8 +27,8 @@ const sms = () => {
 
     messageService.send({
       "imageId": imageId,
-      "to": "01072231449",
-      "from": "01067522672",
+      "to": "000", // 받을 번호
+      "from": "000" , // 보낼 번호
       "subject": "[Eyes on] 이상알림",
       "text": `[Eyes on] ${currentTime}, 01번, 1F - 작업실 배전반 이상 알림`
     });
